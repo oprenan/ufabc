@@ -1,0 +1,12 @@
+{
+    "run_file":"src/scenarios.csv",
+    "path_google": "https://www.google.com/travel/flights?hl={lan}&q=Flights%20to%20{org}%20from%20{dest}%20on%20{date}%20oneway",
+    "path_max_milhas": "https://www.maxmilhas.com.br/busca-passagens-aereas/OW/{org}/{dest}/2025-03-01/1/0/0/EC",
+    "path_decolar":"https://www.decolar.com/passagens-aereas/SAO/{dest}?from=SB&di=1&searchType=ONEWAY&outboundMonthRanges=202411",
+
+    
+    "pghost":"127.0.0.1",
+    "pgdb":"main",
+    "pguser":"renan",
+    "pgpass":"renan"
+}

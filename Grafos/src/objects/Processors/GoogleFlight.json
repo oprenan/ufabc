@@ -1,0 +1,31 @@
+{
+    "soupFilterContainer": "div",
+    "soupFilterType": "class",
+    "soupFilterKey": "JMc5Xc",
+    "textSearch": {
+      "en": {
+        "rPrice":"([0-9]*) Brazilian reals",
+        "rDuration":"Total duration ([0-9]* hr [0-9]* min)",
+        "rCompanies":"(flight with ([a-zA-Z_0-9]* and [a-zA-Z_0-9]*).)|(flight with ([a-zA-Z_0-9]*))",
+        "rStops":"[0-9]* stop",
+        "rSummary":{
+          "overall":"(?<=Leaves).*(?=Total)",
+          "departure":"([0-9]*:[0-9]* [AM,PM]* .*) and arrives",
+          "arrival":"arrives .* ([0-9]*:[0-9]* [AM,PM]* .*) ."
+        },
+        "rLayovers":"(Layover \\([0-9] of [0-9]\\) .*)\\. [Layover,Select]" 
+      },
+      "pt": {
+        "rPrice":"([0-9]*) Reais brasileiros",
+        "rDuration":"Duração total: ([0-9]* h [0-9]* min)",
+        "rCompanies":"Voo da ([a-zA-Z_0-9]*)|(Voo sem escalas da ([a-zA-Z_0-9]*))",
+        "rStops":"[0-9]* parada",
+        "rSummary":{
+          "overall":"(?<=Sai do).*(?=Duração total)",
+          "departure":"([0-9]*:[0-9]* .*) e chega",
+          "arrival":"chega .* ([0-9]*:[0-9]* .*) ."
+        },
+        "rLayovers":"(Parada ([0-9] of [0-9]) .*). [Parada,Selecionar]" 
+      }
+    }
+  }
